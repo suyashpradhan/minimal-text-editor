@@ -1,13 +1,18 @@
 .editor-header {
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(5, 10rem);
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
+    flex-flow: row wrap;
+}
+
+.editor-column {
+    margin: 0 2rem 2rem 0;
 }
 
 .editor-button {
-    padding: .8rem;
-    border: 1px solid var(--border);
+    padding: .6rem;
+    border: 1px solid var(--background);
     cursor: pointer;
 }
 
@@ -22,10 +27,11 @@
 }
 
 .editor-icons {
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1.4rem;
+    width: 1.4rem;
 }
 
 .active {
-    background-color: #a8a8a8;
+    background-color: var(--primary);
+    color: var(--white);
 }

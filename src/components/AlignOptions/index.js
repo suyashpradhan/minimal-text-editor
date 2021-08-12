@@ -1,1 +1,0 @@
-export { AlignOptions } from "./AlignOptions";

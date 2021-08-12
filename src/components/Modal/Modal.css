@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    border-bottom: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border);
     border-top-left-radius: .3rem;
     border-top-right-radius: .3rem;
 }
@@ -65,7 +65,7 @@
 }
 
 .close-modal {
-    width: 1.2rem;
+    font-size: 1.4rem;
     color: #f44336;
     cursor: pointer;
     font-weight: 600;

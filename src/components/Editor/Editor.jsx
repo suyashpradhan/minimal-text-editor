@@ -6,10 +6,12 @@ import Placeholder from "@tiptap/extension-placeholder";
 import Underline from "@tiptap/extension-underline";
 import TextAlign from "@tiptap/extension-text-align";
 import Link from "@tiptap/extension-link";
+import Image from "@tiptap/extension-image";
 
 export const Editor = () => {
   const editor = useEditor({
-    extensions: [StarterKit, Placeholder, Underline, TextAlign, Link],
+    extensions: [StarterKit, Placeholder, Underline, TextAlign, Link, Image],
+    autofocus: "end",
   });
 
   return (

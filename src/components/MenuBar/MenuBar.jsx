@@ -1,8 +1,8 @@
 import "./MenuBar.css";
 import { TextOptions } from "../TextOptions";
-import { AlignOptions } from "../AlignOptions";
 import { LinkOptions } from "../LinkOptions";
 import { ImageOptions } from "../ImageOptions";
+import { Meme } from "../Meme";
 
 export const MenuBar = ({ editor }) => {
   if (!editor) {
@@ -13,9 +13,9 @@ export const MenuBar = ({ editor }) => {
     <>
       <div className="editor-header">
         <TextOptions editor={editor} />
-        <AlignOptions editor={editor} />
         <LinkOptions editor={editor} />
         <ImageOptions editor={editor} />
+        <Meme editor={editor} />
       </div>
     </>
   );

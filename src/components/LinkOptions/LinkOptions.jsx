@@ -21,7 +21,7 @@ export const LinkOptions = ({ editor }) => {
 
   return (
     <>
-      <div className="editor-fourth-column">
+      <div className="editor-column editor-third-column">
         <button
           onClick={() => setShowModal(true)}
           className={

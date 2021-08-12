@@ -4,7 +4,7 @@ import { BsTypeUnderline } from "react-icons/bs";
 export const TextOptions = ({ editor }) => {
   return (
     <>
-      <div className="editor-first-column">
+      <div className="editor-column editor-first-column">
         <button
           className={
             editor.isActive("bold") ? "editor-button active" : "editor-button"

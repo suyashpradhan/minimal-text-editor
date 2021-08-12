@@ -1,23 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-
-
 :root {
     --primary: #005bff;
-    --secondary: #3F3D46;
     --text-color: #010101;
-    --background-light-gray: #FAFBFD;
-    --background-medium-gray: #f2f2f2;
+    --background: #FAFBFD;
     --gray: #E3EBDF;
-    --dark-mode: #111417;
     --white: #fff;
     --border: #d3d3d3;
-    --border-light: #ebebeb;
-    --black: #010101;
     --font: 'Inter',
         sans-serif;
     --default-button: #edf2f7;
-    --danger: #ff0000
 }
 
 *,
@@ -66,12 +58,12 @@ a {
     color: var(--text-color);
     text-align: center;
     background-color: var(--default-button);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--border);
     padding: .375rem .75rem;
     border-radius: .25rem;
     font-size: 1.2rem;
     cursor: pointer;
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .button-primary {
@@ -96,7 +88,7 @@ label {
     width: 100%;
     padding: 0.6rem 0.4rem;
     border-radius: 0.3rem;
-    border: 2px solid var(--border-light);
+    border: 2px solid var(--border);
     font-size: 1rem;
     line-height: 1.5;
     background-color: var(--white);

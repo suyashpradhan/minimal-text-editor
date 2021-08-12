@@ -17,13 +17,18 @@
 
 .ProseMirror:focus {
     outline: none;
-    border: 1px solid var(--primary);
     border-radius: 1rem;
 }
 
 .ProseMirror p {
     font-size: 1.2rem;
     padding: 1rem 0 0 0;
+}
+
+.ProseMirror img {
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
 }
 
 .ProseMirror p.is-editor-empty:first-child::before {

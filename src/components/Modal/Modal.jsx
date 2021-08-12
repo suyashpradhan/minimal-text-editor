@@ -14,15 +14,13 @@ export const Modal = ({ modalTitle, cancelModal, proceedOperation, label }) => {
           <div className="modal-content">
             <div className="modal-header">
               <h1 className="modal-title">{modalTitle}</h1>
-              <button
-                type="button"
-                className="button"
+
+              <AiOutlineClose
                 onClick={() => {
                   cancelModal();
                 }}
-              >
-                <AiOutlineClose className="close-modal" />
-              </button>
+                className="close-modal"
+              />
             </div>
             <div className="modal-body">
               <label className="label">{label}</label>
