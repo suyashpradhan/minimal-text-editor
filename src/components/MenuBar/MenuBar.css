@@ -1,0 +1,31 @@
+.editor-header {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 10rem);
+    align-items: center;
+}
+
+.editor-button {
+    padding: .8rem;
+    border: 1px solid var(--border);
+    cursor: pointer;
+}
+
+.editor-button:first-child {
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+
+.editor-button:last-child {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+
+.editor-icons {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.active {
+    background-color: #a8a8a8;
+}

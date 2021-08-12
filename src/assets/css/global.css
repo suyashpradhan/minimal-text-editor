@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+
+:root {
+    --primary: #005bff;
+    --secondary: #3F3D46;
+    --text-color: #010101;
+    --background-light-gray: #FAFBFD;
+    --background-medium-gray: #f2f2f2;
+    --gray: #E3EBDF;
+    --dark-mode: #111417;
+    --white: #fff;
+    --border: #d3d3d3;
+    --border-light: #ebebeb;
+    --black: #010101;
+    --font: 'Inter',
+        sans-serif;
+    --default-button: #edf2f7;
+    --danger: #ff0000
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: var(--background-light-gray);
+    font-family: var(--font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-color);
+    text-align: center;
+    background-color: var(--default-button);
+    border: 1px solid var(--border-light);
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.button-primary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
+
+.button-bordered {
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: var(--white);
+}
+
+label {
+    padding-bottom: 0.2rem;
+    display: block;
+    color: var(--text-color);
+}
+
+.form-field {
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.3rem;
+    border: 2px solid var(--border-light);
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: var(--white);
+    margin-bottom: 1.4rem;
+}
+
+.form-field:active {
+    outline: none;
+    border: 1px solid var(--primary);
+}
+
+.form-field:focus {
+    outline: none;
+    border: 2px solid var(--primary);
+}
