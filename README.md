@@ -8,8 +8,6 @@
 #### App Screenshot
 ![](https://res.cloudinary.com/project-assets/image/upload/v1628832425/banner_oxgzrk.png "App UI")
 
-#### App Demo
-![](D:\DailyPractice\minimal-text-editor\src\assets\Minimal Text Editor.mp4)
 #### Tech Stack 
 1. ReactJS
 2. Vanilla CSS
