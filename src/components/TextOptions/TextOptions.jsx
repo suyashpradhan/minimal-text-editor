@@ -1,6 +1,7 @@
 import { AiOutlineBold, AiOutlineItalic } from "react-icons/ai";
 import { BsTypeUnderline } from "react-icons/bs";
 
+//Text Styling Component
 export const TextOptions = ({ editor }) => {
   return (
     <>

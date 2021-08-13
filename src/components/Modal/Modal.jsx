@@ -2,9 +2,7 @@ import "./Modal.css";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 
-//<AiOutlineClose />
-
-//Modal Component for URLs
+//Reusable Modal Component
 export const Modal = ({ modalTitle, cancelModal, proceedOperation, label }) => {
   const [input, setInput] = useState("");
   return (

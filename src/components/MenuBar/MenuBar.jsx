@@ -4,6 +4,7 @@ import { LinkOptions } from "../LinkOptions";
 import { ImageOptions } from "../ImageOptions";
 import { Meme } from "../Meme";
 
+//Editor MenuBar Component
 export const MenuBar = ({ editor }) => {
   if (!editor) {
     return null;

@@ -8,6 +8,7 @@ import TextAlign from "@tiptap/extension-text-align";
 import Link from "@tiptap/extension-link";
 import Image from "@tiptap/extension-image";
 
+//Editor Component with different options
 export const Editor = () => {
   const editor = useEditor({
     extensions: [StarterKit, Placeholder, Underline, TextAlign, Link, Image],

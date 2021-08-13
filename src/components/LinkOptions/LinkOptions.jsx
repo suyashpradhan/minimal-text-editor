@@ -3,10 +3,11 @@ import { AiOutlineLink } from "react-icons/ai";
 import { BiUnlink } from "react-icons/bi";
 import { Modal } from "../Modal";
 
+//Hyperlink Component
 export const LinkOptions = ({ editor }) => {
   const [showModal, setShowModal] = useState(false);
 
-  //sets the hyperlink to the text
+  //Function to set the hyperlink
   const setLink = (input) => {
     if (input) {
       editor

@@ -2,9 +2,11 @@ import { useState } from "react";
 import { BiImageAdd } from "react-icons/bi";
 import { Modal } from "../Modal";
 
+//Image Component
 export const ImageOptions = ({ editor }) => {
   const [showModal, setShowModal] = useState(false);
 
+  //Function to upload image
   const uploadImage = (url) => {
     if (url) {
       editor.chain().focus().setImage({ src: url }).run();
@@ -27,6 +29,7 @@ export const ImageOptions = ({ editor }) => {
         </button>
       </div>
 
+      {/*Modal to upload image*/}
       {showModal && (
         <Modal
           cancelModal={() => setShowModal(false)}

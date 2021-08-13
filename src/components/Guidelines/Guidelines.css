@@ -1,0 +1,39 @@
+.check-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    display: inline-block;
+    color: var(--primary);
+    vertical-align: middle;
+}
+
+.guidelines-header {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 1.4rem;
+}
+
+.guidelines-collection {
+    list-style: none;
+}
+
+.guidelines-list {
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+
+.guidelines-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: .6rem;
+}
+
+.guidelines-text span {
+    background-color: var(--border);
+    padding: .2rem .6rem;
+    color: var(--text-color);
+    border-radius: .2rem;
+    font-weight: 600;
+}

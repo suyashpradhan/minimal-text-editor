@@ -8,18 +8,18 @@ export const Meme = ({ editor }) => {
   //Upload Meme Function
   const uploadMeme = async () => {
     try {
-      let regex = "";
+      let pattern = "";
       let editorContent = editor.getHTML();
 
       editorContent = editorContent.replace(
         /\{\{(.+?)_meme\}\}/,
         (_, keyword) => {
-          regex = keyword;
+          pattern = keyword;
           return "";
         }
       );
 
-      const { data } = await fetchMeme({ meme: regex, API_KEY });
+      const { data } = await fetchMeme({ meme: pattern, API_KEY });
 
       //Appending Meme to Editor Content
       if (data) {
@@ -29,7 +29,7 @@ export const Meme = ({ editor }) => {
         editor.commands.setContent(editorContent);
       }
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   };
 

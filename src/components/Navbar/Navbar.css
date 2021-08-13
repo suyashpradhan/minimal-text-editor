@@ -2,6 +2,23 @@
     border-bottom: 1px solid #dadce0;
 }
 
+.logo {
+    height: 3rem;
+    width: 3rem;
+    display: inline;
+    vertical-align: middle;
+}
+
+.logo-text {
+    display: inline;
+    vertical-align: middle;
+    font-family: var(--font-logo);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
 .nav {
     padding: 1rem;
 }
@@ -14,13 +31,27 @@
 }
 
 .navlists {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     cursor: pointer;
-    margin-right: 1rem;
+    margin-right: 1.6rem;
+}
+
+.navlists:hover {
+    color: var(--primary);
 }
 
 .navlists:last-child {
     margin-right: 0;
+}
+
+.nav-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    color: var(--text-color);
+}
+
+.nav-icon:hover {
+    color: var(--primary);
 }
 
 .nav-left {
